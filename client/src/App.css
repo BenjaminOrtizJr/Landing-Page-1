@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Custom Properties */
+
+:root {
+    --ff-primary: 'Nunito Sans', sans-serif;  /*Headings, Call-to-actions, Header Navigation*/
+    --ff-secondary: 'Nunito Sans', sans-serif;  /*Body*/
+
+    --fw-reg: 400;
+    --fw-bold: 700;
+
+    /* Primary */
+    --clr-dark: hsl(243, 87%, 12%);
+    --clr-light: hsl(238, 22%, 44%);
+
+    /* Accent */
+    --clr-accent-blue: hsl(224, 93%, 58%);
+    --clr-accent-cyan: hsl(170, 45%, 43%);
+
+    /* Neutral */
+    --clr-neutral-blue: hsl(240, 75%, 98%);
+    --clr-neutral-gray: hsl(0, 0%, 75%);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Global Styles */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-reg);
+    color: var(--clr-dark);
+    background-color: var(--clr-neutral-blue);
 }
