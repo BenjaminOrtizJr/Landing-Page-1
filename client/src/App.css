@@ -36,5 +36,4 @@ body {
     font-family: var(--ff-secondary);
     font-weight: var(--fw-reg);
     color: var(--clr-dark);
-    background-color: var(--clr-neutral-blue);
 }

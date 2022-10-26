@@ -1,5 +1,14 @@
 /* Mobile/Tablet View 375px */
 
 @media screen and (min-width: 320px) {
-    
+    .header__image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__image-container > img {
+        width: 320px;
+        padding-top: 56px;
+    }
 }
