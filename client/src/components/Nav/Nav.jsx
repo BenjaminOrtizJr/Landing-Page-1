@@ -5,10 +5,10 @@ import './Nav.css'
 const Nav = () => {
   return (
       <nav className="navigation__wrapper">
-          <div className="navigation__logo">
+          <div className="navigation__logo-container">
               <img src={Logo} alt="logo" />
           </div>
-          <div className="navigation__links">
+          <div className="navigation__links-container">
               <ul>
                   <li><a href="#">Features</a></li>
                   <li><a href="#">Team</a></li>
