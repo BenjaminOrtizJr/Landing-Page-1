@@ -30,16 +30,16 @@ const Main = () => {
           <div className="main__textSection-comment">
             <img src={CommentIcon} alt="comment bubble" />
             <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-          <div className="main__textSection-commentAuthor">
-            <img src={ProfilePic} alt="author" />
-            <div className="main__textSection-commentAuthorName">
-              <p className="author-name">Kyle Burton</p>
-              <p className="author-position">Founder & CEO, Huddle</p>
+            <div className="main__textSection-commentAuthor">
+              <img src={ProfilePic} alt="author" />
+              <div className="main__textSection-commentAuthorName">
+                <p className="author-name">Kyle Burton</p>
+                <p className="author-position">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
   )
 }
 
