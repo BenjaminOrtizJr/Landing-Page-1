@@ -19,7 +19,7 @@
     }
 
     .header__text-container {
-        width: 320px;
+        width: 340px;
         padding-top: 40px;
         text-align: center;
     }
@@ -28,16 +28,16 @@
         font-size: 24px;
         font-family: var(--ff-primary);
         line-height: 1.5;
-        letter-spacing: 0.5px;
+        letter-spacing: 1px;
     }
 
     .header__text-container > p {
         font-size: 14px;
         font-family: var(--ff-secondary);
         line-height: 1.4;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.6px;
         padding-top: 18px;
-        font-weight: var(--fw-reg);
+        
     }
 
     .header__input-container {
