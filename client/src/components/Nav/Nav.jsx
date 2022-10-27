@@ -10,9 +10,9 @@ const Nav = () => {
           </div>
           <div className="navigation__links-container">
               <ul>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Team</a></li>
-                  <li><a href="#">Sign In</a></li>
+                  <li><a href="features">Features</a></li>
+                  <li><a href="team">Team</a></li>
+                  <li><a href="signIn">Sign In</a></li>
               </ul>
           </div>
       </nav>

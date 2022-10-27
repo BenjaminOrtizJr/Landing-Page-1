@@ -1,0 +1,11 @@
+/* Mobile/Tablet View 375px */
+
+@media screen and (min-width: 320px) {
+
+    .main__imageSection-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+}

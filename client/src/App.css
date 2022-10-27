@@ -10,8 +10,8 @@
 /* Global Custom Properties */
 
 :root {
-    --ff-primary: 'Nunito Sans', sans-serif;  /*Headings, Call-to-actions, Header Navigation*/
-    --ff-secondary: 'Nunito Sans', sans-serif;  /*Body*/
+    --ff-primary: 'Raleway', sans-serif;  /*Headings, Call-to-actions, Header Navigation*/
+    --ff-secondary: 'Open Sans', sans-serif;  /*Body*/
 
     --fw-reg: 400;
     --fw-bold: 700;
@@ -28,12 +28,4 @@
     --clr-neutral-blue: hsl(240, 75%, 98%);
     --clr-neutral-gray: hsl(0, 0%, 75%);
 
-}
-
-/* Global Styles */
-
-body {
-    font-family: var(--ff-secondary);
-    font-weight: var(--fw-reg);
-    color: var(--clr-dark);
 }

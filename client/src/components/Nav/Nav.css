@@ -9,7 +9,7 @@
     }
 
     .navigation__logo-container > img {
-        width: 90px;
+        width: 80px;
     }
 
     .navigation__links-container > ul {
@@ -24,9 +24,9 @@
     .navigation__links-container > ul > li > a {
         text-decoration: none;
         font-size: 12px;
-        font-family: var(--ff-primary);
+        font-family: var(--ff-secondary);
         color: var(--clr-dark);
-        font-weight: var(--fw-reg);
+        
     }
 }
 
@@ -56,8 +56,7 @@
     .navigation__links-container > ul > li > a {
         text-decoration: none;
         font-size: 14px;
-        font-family: var(--ff-primary);
+        
         color: var(--clr-dark);
-        font-weight: var(--fw-reg);
     }
 }
