@@ -19,7 +19,7 @@ const Header = () => {
             <input type="text" placeholder="Enter your email..." />
             <button>Get Started</button>
           </div>
-      </div>
+        </div>
       </header>
   )
 }

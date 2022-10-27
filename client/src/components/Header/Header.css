@@ -19,14 +19,15 @@
     }
 
     .header__text-container {
-        width: 340px;
+        width: 320px;
         padding-top: 40px;
         text-align: center;
     }
 
     .header__text-container > h1 {
-        font-size: 24px;
+        font-size: 22px;
         font-family: var(--ff-primary);
+        font-weight: var(--fw-bold);
         line-height: 1.5;
         letter-spacing: 1px;
     }
