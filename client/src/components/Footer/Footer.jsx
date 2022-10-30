@@ -3,9 +3,9 @@ import './Footer.css'
 import FooterLogo from '../images/logo2.svg'
 import PhoneImage from '../images/icon-phone.svg'
 import EmailImage from '../images/icon-email.svg'
-import FacebookIcon from '../images/facebook.svg'
+import FacebookIcon from '../images/icons8-facebook-f.svg'
 import TwitterIcon from '../images/twitter.svg'
-import InstagramIcon from '../images/instagram.svg'
+import InstagramIcon from '../images/icons8-instagram.svg'
 
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="footer__contacts-container">
               <a href="#phone" ><img src={PhoneImage} alt="phone" />Phone: +1-543-123-4567</a>
-              <a href="#email"><img src={EmailImage} alt="email" />Email: example@fylo.com</a>
+              <a href="#email"><img src={EmailImage} alt="email" />example@fylo.com</a>
           </div>
           <div className="footer__links-container1">
               <a href="#about">About Us</a>
