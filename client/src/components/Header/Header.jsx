@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import HeaderImage from '../images/illustration-1.svg'
-import BgCurveMobile from '../images/bg-curve-mobile.svg'
+
 
 const Header = () => {
   return (
@@ -17,6 +17,7 @@ const Header = () => {
           </p>
           <div className="header__input-container">
             <input type="text" placeholder="Enter your email..." />
+              <br/>
             <button>Get Started</button>
           </div>
         </div>
