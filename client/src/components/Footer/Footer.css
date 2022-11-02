@@ -1,6 +1,6 @@
 /* Mobile/Tablet View 375px */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1439px){
 
     .footer__wrapper {
         background-color: var(--clr-dark);

@@ -1,6 +1,6 @@
 /* Mobile/Tablet View 375px */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 1439px) {
 
     .navigation__wrapper {
         display: flex;
@@ -32,16 +32,18 @@
 
 /* Desktop View */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 
     .navigation__wrapper {
         display: flex;
         justify-content: space-between;
-        padding: 2rem 2rem;
+        padding: 3rem 3rem;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .navigation__logo-container > img {
-        width: 120px;
+        width: 140px;
     }
 
     .navigation__links-container > ul {
@@ -50,13 +52,13 @@
 
     .navigation__links-container > ul > li {
         list-style: none;
-        margin: 0 10px;
+        margin-left: 50px;
     }
 
     .navigation__links-container > ul > li > a {
         text-decoration: none;
         font-size: 14px;
-        
+        font-family: var(--ff-secondary);
         color: var(--clr-dark);
     }
 }

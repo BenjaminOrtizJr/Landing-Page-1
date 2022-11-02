@@ -4,13 +4,15 @@ import Illustration2 from '../images/illustration-2.svg'
 import IconArrow from '../images/icon-arrow.svg'
 import CommentIcon from '../images/icon-quotes.svg'
 import ProfilePic from '../images/avatar-testimonial.jpg'
+import BgCurveDesktop from '../images/bg-curve-desktop.svg'
 import './Main.css'
 
 const Main = () => {
   return (
       <main className="main__wrapper">
         <div className="main__imageSection-container">
-          <img src={BgCurveMobile} alt="curved section divider" />
+          <img src={BgCurveMobile} className="bg__curve-mobile" alt="curved section divider" />
+          <img src={BgCurveDesktop} className="bg__curve-desktop" alt="curved section divider" />
         </div>
         <div className="main__textSection-container">
           <div className="main__textSection-image">
