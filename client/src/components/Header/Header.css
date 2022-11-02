@@ -90,7 +90,7 @@
     }
 
     .header__image-container > img {
-        max-width: 680px;
+        max-width: 660px;
         padding-top: 14px;
     }
 
@@ -104,7 +104,7 @@
     }
 
     .header__text-container > h1 {
-        font-size: 40px;
+        font-size: 38px;
         font-family: var(--ff-primary);
         font-weight: var(--fw-bold);
         line-height: 1.5;
@@ -126,7 +126,7 @@
     }
 
     .header__input-container > input {
-        width: 400px;
+        width: 380px;
         height: 42px;
         border-radius: 2px;
         border: 1px solid var(--clr-light);

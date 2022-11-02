@@ -29,3 +29,49 @@
     --clr-neutral-gray: hsl(0, 0%, 75%);
 
 }
+
+/* Mobile View */
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+
+    .main__imageSection-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg__curve-desktop {
+        display: none;
+    }
+
+    .bg__curve-mobile {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Desktop View */
+
+@media screen and (min-width: 1440px) {
+
+    .main__imageSection-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg__curve-mobile {
+        display: none;
+    }
+
+    .bg__curve-desktop {
+        width: 100%;
+        height: 100%;
+    }
+}
