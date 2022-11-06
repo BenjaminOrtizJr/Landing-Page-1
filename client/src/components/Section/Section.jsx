@@ -3,7 +3,8 @@ import './Section.css'
 
 const Section = () => {
   return (
-      <section className="section__wrapper">
+    <section className="section__wrapper">
+      <div className="section__container">
         <div className="section__content-container">
           <h3>Get early access today</h3>
           <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
@@ -14,6 +15,7 @@ const Section = () => {
           <input type="text" placeholder="email@example.com" />
           <button>Get Started For Free</button>
         </div>
+      </div>
       </section>
   )
 }
