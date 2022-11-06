@@ -15,11 +15,11 @@ const Header = () => {
              Access them wherever you need, share and collaborate with friends, 
              family, and co-workers.
           </p>
-          <div className="header__input-container">
-            <input type="text" placeholder="Enter your email..." />
+          <form className="header__input-container">
+            <input type="email" placeholder="Enter your email..." required />
               <br/>
             <button>Get Started</button>
-          </div>
+          </form>
         </div>
       </header>
   )

@@ -11,12 +11,12 @@ const Section = () => {
              If you have any questions, our support team would be happy to help you.
           </p>
         </div>
-        <div className="section__input-container">
-          <input type="text" placeholder="email@example.com" />
+        <form className="section__input-container">
+          <input type="email" placeholder="email@example.com" required />
           <button>Get Started For Free</button>
-        </div>
+        </form>
       </div>
-      </section>
+    </section>
   )
 }
 

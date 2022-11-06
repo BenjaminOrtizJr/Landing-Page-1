@@ -68,8 +68,7 @@
 
   ::placeholder {
     color: var(--clr-neutral-gray);
-
-}
+  } 
 
   .section__input-container > button {
     width: 100%;
@@ -142,25 +141,28 @@
 
   .section__input-container > input {
     width: 440px;
-    height: 40px;
+    height: 50px;
     border-radius: 2px;
     border: 1px solid var(--clr-neutral-gray);
-    padding-left: 2px;
     font-family: var(--ff-secondary);
-    font-size: 10px;
+    font-size: 16px;
     font-weight: var(--fw-reg);
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    padding-left: 16px;
   }
 
   .section__input-container > button {
-    width: 152px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
     background-color: var(--clr-accent-blue);
     color: var(--clr-neutral-blue);
     font-family: var(--ff-primary);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: var(--fw-bold);
     border: none;
     border-radius: 2px;
     margin-top: 8px;
+    cursor: pointer;
   }
 }

@@ -84,89 +84,108 @@
 
 @media screen and (min-width: 1440px) {
             
-        .footer__wrapper {
-            background-color: var(--clr-dark);
-            font-family: var(--ff-secondary);
-        }
+    .footer__wrapper {
+        background-color: var(--clr-dark);
+        font-family: var(--ff-secondary);
+    }
 
-        .footer__logo-container {
-            width: 1440px; 
-            margin: 0 auto;
-            padding-left: 50px;
-            padding-top: 4rem;
-        }
+    .footer__logo-container {
+        width: 1440px; 
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-top: 4rem;
+    }
     
-        .footer__main-container {
-            display: flex;
-            flex-direction: row;
-            padding-bottom: 60px;
-            padding-left: 50px;
-            width: 1440px; 
-            margin: 0 auto;
-        }
+    .footer__main-container {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        width: 1440px; 
+        margin: 0 auto;
+    }
     
-        .footer__contacts-container {
-            display: flex;
-            flex-direction: column;
-            padding-top: 2rem;
-        }
+    .footer__contacts-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
     
-        .footer__contacts-container > a {
-            text-decoration: none;
-            color: var(--clr-neutral-blue);
-            padding-bottom: 1.5rem;
-        }
+    .footer__contacts-container > a {
+        text-decoration: none;
+        color: var(--clr-neutral-blue);
+        padding-bottom: 1.5rem;
+    }
 
-        .footer__contacts-container > a > img {
-            padding-right: 1rem;
-            width: 32px;
-        }
+    .footer__contacts-container > a:hover {
+        color: var(--clr-accent-blue);
+    }
+
+    .footer__contacts-container > a > img {
+        padding-right: 1rem;
+        width: 32px;
+    }
     
-        .footer__links-container1 {
-            display: flex;
-            flex-direction: column;
-            padding-top: 2rem;
-            padding-left: 260px;
-        }
+    .footer__links-container1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-left: 260px;
+    }
     
-        .footer__links-container1 > a {
-            text-decoration: none;
-            color: var(--clr-neutral-blue);
-            padding-bottom: 1.2rem;
-        }
+    .footer__links-container1 > a {
+        text-decoration: none;
+        color: var(--clr-neutral-blue);
+        padding-bottom: 1.2rem;
+        cursor: pointer;
+    }
+
+    .footer__links-container1 > a:hover {
+        color: var(--clr-accent-blue);
+    }
     
-        .footer__links-container2 {
-            display: flex;
-            flex-direction: column;
-            padding-top: 2rem;
-            padding-left: 230px;
-        }
+    .footer__links-container2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-left: 230px;
+    }
     
-        .footer__links-container2 > a {
-            text-decoration: none;
-            color: var(--clr-neutral-blue);
-            padding-bottom: 1.2rem;
-        }
+    .footer__links-container2 > a {
+        text-decoration: none;
+        color: var(--clr-neutral-blue);
+        padding-bottom: 1.2rem;
+        cursor: pointer;
+    }
+
+    .footer__links-container2 > a:hover {
+        color: var(--clr-accent-blue);
+    }
     
-        .footer__social-container {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            padding-top: 1.5rem;
-            padding-bottom: 2rem;
-            padding-left: 150px;
-        }
+    .footer__social-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+        padding-left: 150px;
+    }
     
-        .footer__social-container > a {
-            text-decoration: none;
-            padding: 6px;
-        }
+    .footer__social-container > a {
+        text-decoration: none;
+        padding: 6px;
+        cursor: pointer;
+    }
     
-        .footer__social-container > a > img {
-            font-size: 20px;
-            border: 1px solid var(--clr-neutral-blue);
-            border-radius: 50%;
-            padding: 5px;
-        }
-       
+    .footer__social-container > a > img {
+        font-size: 20px;
+        border: 1px solid var(--clr-neutral-blue);
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .footer__social-container > a > img:hover {
+        border: 1px solid var(--clr-accent-blue);
+    }
+     
 }

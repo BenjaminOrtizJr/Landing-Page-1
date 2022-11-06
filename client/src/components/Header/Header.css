@@ -131,6 +131,10 @@
         border-radius: 2px;
         border: 1px solid var(--clr-light);
         font-size: 14px;
+        font-family: var(--ff-secondary);
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+        padding-left: 16px;
     }
 
     ::placeholder {
@@ -152,5 +156,6 @@
         font-family: var(--ff-secondary);
         letter-spacing: 0.5px;
         border: none;
+        cursor: pointer;
     } 
 }

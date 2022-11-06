@@ -15,8 +15,8 @@ const Footer = () => {
         </div>
         <div className="footer__main-container">
           <div className="footer__contacts-container">
-            <a href="#phone" ><img src={PhoneImage} alt="phone" />Phone: +1-543-123-4567</a>
-            <a href="#email"><img src={EmailImage} alt="email" />example@fylo.com</a>
+            <a href="tel:+1-543-123-4567" ><img src={PhoneImage} alt="phone" />Phone: +1-543-123-4567</a>
+            <a href="mailto:example@fylo.com"><img src={EmailImage} alt="email" />example@fylo.com</a>
           </div>
           <div className="footer__links-container1">
             <a href="#about">About Us</a>

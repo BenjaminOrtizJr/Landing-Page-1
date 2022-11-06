@@ -26,7 +26,7 @@
         font-size: 12px;
         font-family: var(--ff-secondary);
         color: var(--clr-light);
-        
+        cursor: pointer;
     }
 }
 
@@ -60,5 +60,6 @@
         font-size: 14px;
         font-family: var(--ff-secondary);
         color: var(--clr-dark);
+        cursor: pointer;
     }
 }
