@@ -13,8 +13,9 @@ const Section = () => {
         </div>
         <form className="section__input-container">
           <input type="email" placeholder="email@example.com" required />
-          <br />
-          <button>Get Started For Free</button>
+          <div className="section__button-container">
+            <button>Get Started For Free</button>
+          </div>
         </form>
       </div>
     </section>

@@ -68,9 +68,13 @@
 
   ::placeholder {
     color: var(--clr-neutral-gray);
-  } 
+  }
 
-  .section__input-container > button {
+  .section__button-container {
+    width: 100%
+  }
+
+  .section__button-container > button {
     width: 100%;
     height: 32px;
     background-color: var(--clr-accent-blue);
@@ -154,7 +158,11 @@
     
   }
 
-  .section__input-container > button {
+  .section__button-container {
+    padding-top: 10px;
+  }
+
+  .section__button-container > button {
     width: 170px;
     height: 40px;
     background-color: var(--clr-accent-blue);
